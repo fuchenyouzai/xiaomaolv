@@ -138,21 +138,21 @@
                     <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Cluster Nodes</p>
                     <p class="text-emerald-500 font-bold flex items-center gap-2">
                         <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
-                        ⚡点击 按钮 让苍井空骑上小毛驴 跳转至 打开外部应用 选择TG ✈️ 打开 即可蹦跶s
+                        ⚡点击 按钮 让苍井空骑上小毛驴 跳转至 打开外部应用 选择TG ✈️ 打开 即可蹦跶✈️
                     </p>
                 </div>
                 <div class="text-right">
                     <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Status</p>
-                    <p class="font-black text-tgblue uppercase text-sm italic">✅苍井空的小毛驴 撸起袖子加油骑</p>
+                    <p class="font-black text-tgblue uppercase text-sm italic">✅苍井空的小毛驴 撸起袖子加油骑✈️ </p>
                 </div>
             </div>
 
             <div class="space-y-4" id="proxy-list"></div>
 
             <div class="mt-10 pt-8 border-t border-slate-200 dark:border-white/5 flex justify-around opacity-50">
-                <div class="text-center"><p class="text-[9px] font-bold">苍井空的小毛驴</p></div>
-                <div class="text-center"><p class="text-[9px] font-bold">免费骑</p></div>
-                <div class="text-center"><p class="text-[9px] font-bold">想咋骑就咋骑</p></div>
+                <div class="text-center"><p class="text-[9px] font-bold">✈️苍井空的小毛驴✈️</p></div>
+                <div class="text-center"><p class="text-[9px] font-bold">✈️免费骑✈️</p></div>
+                <div class="text-center"><p class="text-[9px] font-bold">✈️想咋骑就咋骑✈️</p></div>
             </div>
         </div>
     </div>
@@ -165,7 +165,7 @@
     <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 opacity-0 transition-all duration-300 pointer-events-none translate-y-10 z-[999]">
         <div class="bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-8 py-4 rounded-2xl shadow-2xl flex items-center gap-3 font-bold">
             <i class="fas fa-check-circle text-emerald-500 text-lg"></i>
-            <span>苍井空 骑上了小毛驴，正在赶往TG✈️ Telegram</span>
+            <span>苍井空 骑上了小毛驴，正在赶往TG✈️ Telegram✈️</span>
         </div>
     </div>
 
@@ -196,7 +196,8 @@
             "tg://proxy?server=54.180.245.163&port=443&secret=eebbf7ce4a09185a7e23e8c985c46372e1617a7572652e6d6963726f736f66742e636f6d",
             "tg://proxy?server=43.201.253.200&port=443&secret=ee946813f69c59ae11ed707ee41c4ec052617a7572652e6d6963726f736f66742e636f6d",
             "tg://proxy?server=13.229.182.14&port=443&secret=ee6b447e875fc467ad45f299dc059037ae617a7572652e6d6963726f736f66742e636f6d",
-            "tg://proxy?server=54.255.220.93&port=443&secret=ee1197dedbad04cba0e18ae8403cbc88a2617a7572652e6d6963726f736f66742e636f6d"
+            "tg://proxy?server=54.255.220.93&port=443&secret=ee1197dedbad04cba0e18ae8403cbc88a2617a7572652e6d6963726f736f66742e636f6d",
+            "tg://socks?server=192.168.3.5&port=9125&user=youzai&pass=TG%40fuchenyouzaibot"
        ];
 
         function renderNodes() {
@@ -206,7 +207,7 @@
                 return `
                     <div class="proxy-node bg-slate-100/50 dark:bg-black/30 rounded-2xl p-4 border border-slate-200 dark:border-white/5 flex items-center justify-between group cursor-pointer" onclick="connect('${url}')">
                         <div class="flex-1 min-w-0">
-                            <p class="text-[9px] text-slate-400 mb-0.5 font-bold uppercase tracking-tighter italic">小毛驴 0${i+1} / 号</p>
+                            <p class="text-[9px] text-slate-400 mb-0.5 font-bold uppercase tracking-tighter italic">✈️小毛驴 0${i+1} / 号</p>
                             <p class="text-base font-mono font-bold truncate text-slate-700 dark:text-blue-200">${params.get('server')}:${params.get('port')}</p>
                         </div>
                         <div class="w-10 h-10 rounded-xl bg-tgblue text-white flex items-center justify-center shadow-lg shadow-tgblue/20">
